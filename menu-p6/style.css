@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+
+.hfont {
+    font-size: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page2{
+    height: 100%;
+    width: 100%;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    background-color: rgba(66, 66, 66, 0.295);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    font-size: 25px;
+}
+.page {
+    height: 100%;
+    width: 100%;
+    background-image: url(2026-03-07_15.42.21.png);
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+}
+
+.header i{
+    cursor: pointer;
+}
+
+.menu{
+    background-color: rgba(240, 248, 255, 0.418);
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding: 20px;
+    color: black;
+    align-items: center;
+    padding-top: 100px;
+    backdrop-filter: blur(10px);
+    transform: translateX(100%);
+}
+.menu h1{
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+.menu i{
+    cursor: pointer;
+    position: fixed;
+    top:50px;
+    right:40px;
+    font-size: 35px;
+}
